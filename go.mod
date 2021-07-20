@@ -1,3 +1,3 @@
-module github.com/dcarbone/go-csvclean
+module github.com/dcarbone/csvclean
 
 go 1.16

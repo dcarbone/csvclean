@@ -17,10 +17,10 @@ import (
 
 const (
 	helpText = `
-csvescape - simple character separated value escape utility
+csvclean - simple character separated value escape utility
 
 Usage:
-	csvescape [options] infile [outfile]
+	csvclean [options] infile [outfile]
 
 Options:
 	-c		Character comments are started with
@@ -46,7 +46,7 @@ var (
 
 	logger = log.New(os.Stdout, "", log.LstdFlags)
 
-	fs              = flag.NewFlagSet("csvescape", flag.ContinueOnError)
+	fs              = flag.NewFlagSet("csvclean", flag.ContinueOnError)
 	commentPtr      = fs.String("c", "", "CSV comment start character")
 	rawDelimiterPtr = fs.String("d", ",", "CSV value delimiter")
 	encapsulatePtr  = fs.String("e", "\"", "Character to use for value encapsulation")
