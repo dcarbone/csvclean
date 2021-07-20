@@ -1,2 +1,2 @@
-# go-csv-escaper
-Little go program to escape a character separated file
+# go-csvclean
+Little go program to clean a character separated file
